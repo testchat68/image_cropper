@@ -2,7 +2,7 @@
 # This file must be inserted in folder:
 # ~/.local/share/applications/
 #
-# File name (rename it to): cropper.desktop
+# File name (rename it to): cropper.desktop after moving
 #
 # After moving the file in the folder, than type in terminal:
 # chmod +x ~/.local/share/applications/cropper.desktop
