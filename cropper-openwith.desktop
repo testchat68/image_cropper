@@ -4,7 +4,7 @@
 #
 # File name (rename it to): cropper.desktop after moving
 #
-# After moving the file in the folder, than type in terminal:
+# After moving the file in the folder, type in terminal:
 # chmod +x ~/.local/share/applications/cropper.desktop
 # update-desktop-database ~/.local/share/applications/
 # ============================================================
