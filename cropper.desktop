@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Кропване на снимки
+Name[en]=Image Cropper
+Comment=Кропване на PNG и JPG с мишка
+Comment[en]=Crop PNG and JPG images with mouse
+Exec=sh -c "python3 $HOME/cropper.py"
+Icon=applications-graphics
+Terminal=false
+Categories=Graphics;Utility;
+StartupNotify=true
