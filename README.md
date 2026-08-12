@@ -1,4 +1,4 @@
-Simple PGN and JPG cropper for linux mint 22.2
+Simple PGN (Screenshots) and JPG cropper for linux mint 22.2
 Please see the pictures: Crop 1, Crop 2, Crop 3, Crop 4.
 Put the file cropper.py in HOME directory
 Right mouse button on the file/Properties/Permissions and check all EXECUTE boxes.
