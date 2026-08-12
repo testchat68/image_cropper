@@ -3,9 +3,11 @@ Please see the pictures: Crop 1, Crop 2, Crop 3, Crop 4.
 Put the file cropper.py in HOME directory
 Right mouse button on the file/Properties/Permissions and check all EXECUTE boxes.
 Put the file cropper.desktop on Desktop and do the same: Right mouse button on the file/Properties/Permissions and check all EXECUTE boxes.
+Type in terminal: sudo apt install python3-pil.imagetk
+Type in terminal: sudo apt install python3-pillow
 That's it. You can use the program.
-------------------------------------------------------
-To add in to context menu (open by ...) do the next:
+END 1
+To add Cropper in to context menu (open by ...) do the next:
 Go to Home and click on empty space with right mouse button and check: Show All Hidden Files
 Go to Home/.local/share/applications
 Cut and paste the file: Cropper (leave Cropper only).desktop
@@ -17,4 +19,4 @@ That's it - now when you press with right mouse button on any picture you will s
 Forever Free for use by everyone: private and/or public and/or business.
 You are free to use as it is or change anything. 
 Any issues or questions: good.vibes.github@gmail.com
-END
+END 2
