@@ -7,7 +7,7 @@ Type in terminal: sudo apt install python3-pil.imagetk
 Type in terminal: sudo apt install python3-pillow
 That's it. You can use the program.
 END 1
-To add Cropper in to context menu (open by ...) do the next:
+To add Cropper in to context menu (open by ...), (picture: Crop 4.png), do the next:
 Go to Home and click on empty space with right mouse button and check: Show All Hidden Files
 Go to Home/.local/share/applications
 Cut and paste the file: Cropper (leave Cropper only).desktop
