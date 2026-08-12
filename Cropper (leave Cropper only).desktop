@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Кропър
+Name[en]=Cropper
+Comment=Кропване на PNG и JPG
+Exec=python3 /home/user/cropper.py %F
+Icon=applications-graphics
+Terminal=false
+Categories=Graphics;Utility;
+MimeType=image/png;image/jpeg;image/jpg;
+StartupNotify=true
+Name[en_US]=Cropper (leave Cropper only)
