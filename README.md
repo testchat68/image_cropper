@@ -1,22 +1,47 @@
-Simple PGN (Screenshots) and JPG cropper for linux mint 22.2
+Simple PNG, JPG and WebP cropper for Linux Mint 22.2
+
 Please see the pictures: Crop 1, Crop 2, Crop 3, Crop 4.
-Put the file cropper.py in HOME directory
-Right mouse button on the file/Properties/Permissions and check all EXECUTE boxes.
-Put the file cropper.desktop on Desktop and do the same: Right mouse button on the file/Properties/Permissions and check all EXECUTE boxes.
-Type in terminal: sudo apt install python3-pil.imagetk
-Type in terminal: sudo apt install python3-pillow
-That's it. You can use the program.
-END 1
-To add Cropper in to context menu (open by ...), (picture: Crop 4.png), do the next:
-Go to Home and click on empty space with right mouse button and check: Show All Hidden Files
-Go to Home/.local/share/applications
-Cut and paste the file: Cropper (leave Cropper only).desktop
-Rename to: Cropper 
-This means - delete the text: (leave Cropper only)
-type in terminal: chmod +x ~/.local/share/applications/cropper.desktop
-type in terminal: update-desktop-database ~/.local/share/applications/
-That's it - now when you press with right mouse button on any picture you will see the option: Open with cropper
-Forever Free for use by everyone: private and/or public and/or business.
-You are free to use as it is or change anything. 
+
+=== Installation ===
+
+1. Put the file "cropper.py" in your HOME directory.
+2. Right-click on cropper.py → Properties → Permissions → check all "Execute" boxes.
+
+3. There are TWO different .desktop files:
+
+   - File 1: "cropper.desktop"
+     → Put this one on your Desktop
+     → Right-click → Properties → Permissions → check all "Execute" boxes
+
+4. Open Terminal and run these two commands:
+
+sudo apt install python3-pillow
+sudo apt install python3-pil.imagetk
+
+That's it. You can now use the program from the Desktop shortcut.
+
+=== Add to "Open With" context menu ===
+
+1. Go to your Home folder.
+2. Right-click on empty space → check "Show Hidden Files".
+3. Go to the folder: .local/share/applications
+4.There are TWO different .desktop files:
+
+   - File 2: "cropper-openwith.desktop"
+     → This one is for the context menu ("Open with")
+
+6. Copy the file "cropper-openwith.desktop" into this folder.
+7. Rename it to: cropper.desktop
+8. Open Terminal and run:
+
+chmod +x ~/.local/share/applications/cropper.desktop
+update-desktop-database ~/.local/share/applications/
+
+Done. Now when you right-click on any image you will see "Open with Cropper".
+
+=== License ===
+
+Forever free for everyone — private, public and business use.
+You are free to use it as is or modify it.
+
 Any issues or questions: good.vibes.github@gmail.com
-END 2
