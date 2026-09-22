@@ -32,18 +32,6 @@ Simple **PNG, JPG and WebP** cropper / resizer for Linux Mint 22.2.
 
 Open an image, then pick a tool. The green crop box no longer appears by itself — you choose the mode after the file is loaded.
 
-Please see the pictures:
-
-![Start screen](start_screen.jpg)
-
-![Crop tool](crop_tool.jpg)
-
-![Resize tool](resize_tool.jpg)
-
-![Auto White](auto_white.jpg)
-
-Upload these four files next to `README.md` (same folder as the repo root):
-
 | # | File name | What to photograph |
 | --- | --- | --- |
 | 1 | `start_screen.jpg` | First screen after opening an image — Crop / Resize / Auto White visible, no crop box yet |
@@ -56,12 +44,18 @@ A built-in file browser shows thumbnails. You can also **right-click an image �
 ---
 
 ## Tools
+![Start screen](start_screen.jpg)
+
 
 ### Crop
+
+![Crop tool](crop_tool.jpg)
 
 Press **Crop**. A green rectangle appears. Drag inside to move it. Drag edges or corners to change the cut. Save writes only that region.
 
 ### Resize
+
+![Resize tool](resize_tool.jpg)
 
 Press **Resize**. Aspect ratio stays locked: change the vertical side and the horizontal side follows (and the other way around). The overlay shows output size and scale versus the original:
 
@@ -129,6 +123,8 @@ If startup fails, the app writes `~/cropper_error.log`.
 ---
 
 ## Add to “Open With” context menu
+
+![Auto White](Crop 4.jpg)
 
 1. Go to your Home folder.
 2. Right-click on empty space → check **Show Hidden Files**.
