@@ -124,7 +124,7 @@ If startup fails, the app writes `~/cropper_error.log`.
 
 ## Add to “Open With” context menu
 
-![Auto White](Crop 4.jpg)
+![Open With](open_with.jpg)
 
 1. Go to your Home folder.
 2. Right-click on empty space → check **Show Hidden Files**.
