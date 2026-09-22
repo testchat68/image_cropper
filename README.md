@@ -37,7 +37,6 @@ Open an image, then pick a tool. The green crop box no longer appears by itself 
 | 1 | `start_screen.jpg` | First screen after opening an image — Crop / Resize / Auto White visible, no crop box yet |
 | 2 | `crop_tool.jpg` | Crop mode — green rectangle and corner handles |
 | 3 | `resize_tool.jpg` | Resize mode — yellow box, live `W×H` and scale (`+1.7x` / `-3.6x`) |
-| 4 | `auto_white.jpg` | After Auto White — lifted whites, same gain on all colors |
 
 A built-in file browser shows thumbnails. You can also **right-click an image → Open with Cropper**.
 
